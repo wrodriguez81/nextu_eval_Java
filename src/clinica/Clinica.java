@@ -15,8 +15,14 @@ public class Clinica {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       System.out.println("Hola Mundo");
-       System.out.println("Esto es una prueba");
+       Paciente paciente = new Paciente();
+       paciente.setId("V15418518");
+       paciente.setNombre("Alejandro");
+       paciente.setApellido("Rodriguez");
+       paciente.setEdad(37);
+       paciente.setGenero("Masculino");
+       
+       System.out.println(paciente.getGenero());
     }
     
 }

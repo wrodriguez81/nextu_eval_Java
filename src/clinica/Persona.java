@@ -5,14 +5,16 @@
  */
 package clinica;
 
+import java.util.List;
+
 /**
  *
  * @author Alejandro
  */
 public class Persona {
-    private String id;
-    private String nombre;
-    private String apellido;
+    protected String id;
+    protected String nombre;
+    protected String apellido;
 
     public String getId() {
         return id;
@@ -37,4 +39,5 @@ public class Persona {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+    
 }
